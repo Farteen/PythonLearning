@@ -1,12 +1,12 @@
-from dsitutils.core import setup
+from distutils.core import setup
 
-setup {
-	name 		=	'nester',
+setup (
+	name 		=	'nested_print',
 	version 	=	'1.0.0',
-	py_moduls	= 	['nester'],
+	py_modules	= 	['nested_print'],
 	author		= 	'farteen',
 	author_email	=	'934628017@qq.com',
 	url		=	'http://github.com/farteen',
 	description	=	'A simple printer'
-}
+)
 
